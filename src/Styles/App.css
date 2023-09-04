@@ -1,0 +1,129 @@
+/* Fonts */
+/* font-family: 'Fugaz One', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Zen Dots', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.Title{
+    color: #fff;
+    font-family: 'Zen Dots', cursive;
+    font-weight: 800;
+    font-size: 193px;
+    line-height: 166px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.Heading1{
+    color: #FFFFFF;
+    font-family: 'Fugaz One', cursive;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+}
+
+.Paragraph1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: 0px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+footer>div{
+    padding:10px 0;
+}
+
+footer>div:nth-child(1){
+    padding-left: 20px;
+}
+
+footer>div:nth-child(2){
+    padding-right: 20px;
+}
+
+.footer-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.app-store,.play-store{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.down-arrow{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(50%,0);
+    z-index: 4;
+}
+
+.apple-icon,.play-icon,.down-arrow{
+    color: #00D54B;
+}
+
+.policy-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.policy-text{
+    max-width: 350px;
+}
+
+.Policy-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+@media screen and (max-width:840px) {
+    footer{
+        flex-direction: column-reverse;
+    }
+    .policy-cont{
+        flex-direction: column;
+    }
+    footer>div:nth-child(1){
+        padding-left: 0;
+    }
+    
+    footer>div:nth-child(2){
+        padding-right: 0;
+    }
+
+    .down-arrow{
+        display: none;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .Title{
+        font-size: 22vw;
+    }
+}
