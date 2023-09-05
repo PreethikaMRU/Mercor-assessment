@@ -73,6 +73,10 @@ footer>div:nth-child(2){
     align-items: center;
 }
 
+.app-store:hover,.play-store:hover{
+    cursor: pointer;
+}
+
 .down-arrow{
     position: absolute;
     top: 90%;
