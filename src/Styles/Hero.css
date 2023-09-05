@@ -26,7 +26,6 @@
 
 .Hero-Floating-objects{
     width: 100%;
-    /* height: 100%; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -100,6 +99,6 @@
         height: 28vw;
     }
     .pillar-icon,.stair-icon{
-        height: 42vw;
+        height: 40vw;
     }
 }
